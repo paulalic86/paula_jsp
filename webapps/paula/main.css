@@ -1,0 +1,25 @@
+body{
+	text-align:center;
+	background-color:#F4A460;
+	font-color:#8B4513;
+} 
+form {
+    font-family:Microsoft JhengHei;
+    color:#CD5C5C;
+    background-color:#FAEBD7;
+    padding:20px;
+}
+
+.b{
+	width: 500px;
+	margin: 20px auto;
+}
+font {
+	font-family:Microsoft JhengHei;
+	color:	#CD5C5C;
+	width:300px;
+	height:100px;
+	text-align:center;
+	line-height:100px;
+	background-color:#FFDAB9;
+}

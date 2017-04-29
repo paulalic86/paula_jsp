@@ -1,0 +1,38 @@
+<html>
+<head>      
+	<meta charset="UTF-8">
+  	<link rel="stylesheet" href="./main.css">
+  	<h1><font>個人資料</font></h1>
+</head>
+<body background = "https://s-media-cache-ak0.pinimg.com/originals/43/e9/2e/43e92e40839e36ad3dbee2c69dbe5731.jpg">
+	<div class = "b">
+	<center><form method="POST" action="index.jsp">
+		姓名:<input type="text" name="name"><p>
+		年齡:<input type="text" name="age"><p>
+		性別:
+			<SELECT name=sex size=1>
+			<OPTION value=男生 selected>男</OPTION>
+			<OPTION value=女生>女</OPTION>
+			</SELECT><p>
+		系別:
+			<SELECT name=major size=3 Multiple>
+			<OPTION value = "資管系" selected>資管系</OPTION>
+			<OPTION value = “電機系” >電機系</OPTION>
+			<OPTION value = “企管系” selected >企管系</OPTION>
+			</SELECT><p>
+		年級:<br>
+			<input type="radio" name="grade" value="一年級"> 一年級<br>
+			<input type="radio" name="grade" value="二年級"> 二年級<br>
+			<input type="radio" name="grade" value="三年級"> 三年級<br>
+			<input type="radio" name="grade" value="四年級"> 四年級<br>
+		系隊:<br>
+			<Input Type = checkbox name='sport' value='籃球' checked>籃球</Input><br>
+			<Input Type = checkbox name='sport' value='羽球' >羽球</Input><br>
+			<Input Type = checkbox name='sport' value='排球' >排球</Input><br>
+		自我介紹:<br>
+			<input type = textarea name="intro"></input><br>
+		<input type="submit" value="送出資料">
+	</form></center>
+	</div>
+</body>
+</html>
